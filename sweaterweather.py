@@ -30,3 +30,8 @@ elif temp < 20.0:
 		print "Cover up your ears and fingers (and everything else, obviously)\nNobody wants frostbite"
 	if second == no:
 		print "Definitely the best thing to do. It's freakin' freezing!"
+elif temp < 10.0:
+	if second == yes:
+		print "Your not going outside its cold as shit"
+	if second == no:
+		print "Good call"
