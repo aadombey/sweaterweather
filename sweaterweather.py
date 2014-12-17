@@ -7,7 +7,7 @@ yes = 'yes'
 no = 'no'
 if temp > 100.0:
 	if second == yes:
-		print "Wear light clothing. Don't forget sunscreen!"
+		print "Wear a tank top and bathing suit. Don't forget sunscreen!"
 	elif second == no:
 		print "It's too hot outside anyways"
 elif temp > 70.0 and temp < 100.0:
